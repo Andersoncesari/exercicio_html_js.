@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#4F4F4F;
+    width: 100%;
+    height: 100%;
+}
+
+div{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(32, 134, 134);
+    text-align: center;
+    margin-top: 100px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+input{
+    width: 130px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button{
+    width: 120px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.error-messagem{
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgb(241, 9, 9);
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.success-message{
+    background-color: rgb(3, 87, 17);
+    padding: 16px;
+    color: #fff;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
